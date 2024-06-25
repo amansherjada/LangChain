@@ -1,8 +1,3 @@
-Sure! Here's a `README.md` file for your project:
-
-### `README.md`
-
-```markdown
 # Blog Generator
 
 This is a simple web application to generate blogs using the Ollama Llama 3 model. The application is built using Streamlit and LangChain libraries.

@@ -26,8 +26,8 @@ Check out the live demo of the application on Hugging Face Spaces: [MultiLanguag
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/amansherjada/MultiLanguage-Invoice-Details-Extractor.git
-    cd MultiLanguage-Invoice-Details-Extractor
+    git clone https://github.com/amansherjada/LangChain.git
+    cd LangChain/Invoice%20Details%20Extractor
     ```
 
 2. Create and activate a virtual environment:

@@ -19,8 +19,8 @@ This repository contains a basic Q&A chatbot built using the Fireworks AI model 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/basic-qa-chatbot.git
-    cd basic-qa-chatbot
+    git clone https://github.com/amansherjada/LangChain.git
+    cd LangChain/Langchain_Q&A_Chatbot
     ```
 
 2. Install the required packages:

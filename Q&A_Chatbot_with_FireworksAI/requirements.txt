@@ -1,0 +1,6 @@
+langchain-fireworks
+langchain
+python-dotenv
+langchain-core
+streamlit
+fireworks-ai

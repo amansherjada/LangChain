@@ -17,6 +17,8 @@ with st.sidebar:
         if api_key.strip():
             st.session_state.api_key = api_key
             st.success("API Key has been set!")
+        else:
+            st.error("Please enter a valid API Key.")
     st.link_button(label="Create your API key here", url="https://console.groq.com/keys")
     
 

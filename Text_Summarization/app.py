@@ -13,6 +13,10 @@ st.subheader("Summarize URL")
 # Get Groq API key and URL
 with st.sidebar:
     api_key = st.text_input("Groq API Key", placeholder="Enter here", type="password")
+    if st.button("Submit API Key"):
+        if api_key.strip():
+            st.session_state.api_key = api_key
+            st.success("API Key has been set!")
     st.link_button(label="Create your API key here", url="https://console.groq.com/keys")
     
 

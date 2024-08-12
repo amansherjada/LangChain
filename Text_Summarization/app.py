@@ -13,7 +13,8 @@ st.subheader("Summarize URL")
 # Get Groq API key and URL
 with st.sidebar:
     api_key = st.text_input("Groq API Key", placeholder="Enter here", type="password")
-    st.markdown('You can create your API key here: [Groq Cloud](https://console.groq.com/keys)')
+    st.link_button(label="Create your API key here", url="https://console.groq.com/keys")
+    
 
 paste_url = st.text_input("URL", label_visibility="collapsed")
 
@@ -62,3 +63,5 @@ if st.button("Summarize"):
                 st.toast('Hooray!', icon='🎉')
         except Exception as e:
             st.exception(f"Exception: {e}")
+st.divider()
+st.link_button(label="Project Creator", url="https://github.com/amansherjada")

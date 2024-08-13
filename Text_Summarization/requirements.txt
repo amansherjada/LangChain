@@ -6,3 +6,5 @@ langchain-community
 youtube_transcript_api
 unstructured
 pytube
+bs4
+requests

@@ -30,7 +30,7 @@ with st.sidebar:
     st.link_button(label="Create your API key here", url="https://console.groq.com/keys")
     
 
-paste_url = st.text_input("URL", label_visibility="collapsed")
+paste_url = st.text_input("URL", placeholder = "https://example.com")
 
 prompt_template = """
 Provide a summary of the following content in 500 words:
